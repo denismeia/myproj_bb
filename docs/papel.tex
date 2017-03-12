@@ -1,0 +1,113 @@
+\documentclass[hidelinks,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{setspace}
+\setlength{\parskip}{1.2ex}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{epsfig}
+\usepackage{url}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage{booktabs}
+\usepackage{subcaption}
+\usepackage[round]{natbib}
+%\usepackage[bottom]{footmisc}
+%\usepackage{bigfoot}
+\interfootnotelinepenalty=10000
+
+\usepackage[margin=1cm]{caption}
+\setlength{\textheight}{9in}
+\setlength{\textwidth}{6in}
+\setlength{\oddsidemargin}{.25in}
+\setlength{\topmargin}{-.5in}
+\hyphenation{itself}
+%====TITLE=========
+
+\title{Agricultural drought assessment in Brazil and US based on orbital remote sensing \\ \textbf{Research Proposal Outline} \\ NRES999 Sec 042 - Doctoral Dissertation}
+\author{\textbf{Denis Araujo Mariano} \\ 
+School of Natural Resources \\ 
+University of Nebraska--Lincoln\\ 
+email: mariano@huskers.unl.edu}
+
+%===================
+%citar uma seção
+%In Sec. \ref{sc:overview}.
+%usar superscript e subscript
+%like\raisebox{-.4ex}{\scriptsize this}. like\raisebox{1ex}{\scriptsize this}
+%============================
+\begin{document}
+
+
+\singlespacing %se tirar fica feioso
+\maketitle
+
+\doublespacing  %se tirar fica feioso
+% This sets section-numbering to only include Section and Subsection numbers
+\setcounter{secnumdepth}{3}
+
+%	\abstract{eventually}
+
+\section{Introduction}
+	
+	Drought in agriculture is a phenomenon that often causes severe losses in yield and, therefore, leading to economic issues. Measuring the impacts of drought once it has been already established is no longer a hassle \citep{Caccamo2011,Swain2011,Wagle2015a}, by relying on traditional vegetation indices or more elaborated proxies like gross primary productivity (GPP); however, detecting its onset is quite challenging and, the earlier, the better. Early drought detection is a key factor in taking action to mitigate the effects on vegetation or, at least in other rings of the agricultural chain, such as logistics, commodities price formation and the insurance premium to name few.
+	
+	Several methods are being used to address drought onset detection. By relying on most of the definitions for drought, the first approach to assess it is through precipitation anomalies detection, by using, for example, the Standardized Precipitation Index [SPI \citep{Mckee1993}]. Others might go further and detect temperature oscillation patterns to relate them to drought occurrence in crops \citep{Swain2011}; however, this approach is not entirely reliable as pointed out by \cite{Basso2014} and \cite{Jin2016}. A challenging but effective method is through evapotranspiration assessment, which is not straightforwardly to estimate by relying on orbital remote sensors data but shows promising results, although, it is heavily data demanding. A good example of practical implementation of this approach is the Evaporative Stress Index [ESI \citep{Anderson2007b,Anderson2007c}], which has been assessed showing remarkable results \citep{Otkin2014a}. 
+	
+	There are also simpler methods that relate vapor pressure deficit (VPD) to drought intensity and, can be used as an earlier indicator. VPD is one of the primary drivers for evapotranspiration, and its calculation is relatively straightforward, being feasible by using remote sensing data as input. Three different methods to calculate VPD are to be considered in this study due to their reproducibility, say \cite{Hashimoto2008} and \cite{Zhang2014b}, which are based solely on MODIS data from thermal and optical spectral channels and, the method proposed by \cite{Behrangi2016} based partially on active remote sensing.   
+	
+	
+	The primary objective of this study is to determine which of the considered methods has higher potential to detect drought onset regarding timing and sensitivity for maize and soybean crops.  Adjunct objectives might be more related to evaluate a model derived from the $1st$ objective in various areas across the Americas. 
+	
+
+\section{Methodological approach}\label{s:method_app}
+
+	\subsection{Spatio-temporal domain}
+	The idea behind the chosen areas is the availability of ground truth data to evaluate models accuracies and, later on, apply such models to other regions. So, there are two (or maybe three) areas to be considered: mid-western USA (Nebraska, Iowa and Illinois), center-west and south of Brazil (states of Mato Grosso and Paraná) and, potentially, a region in Argentina (ambitious!). The crops considered are maize and soybean and the studied period ranges from 2002 to 2017. 
+	
+	The considered spatiotemporal domain may be constrained by yield data availability, which is a serious issue in Brazil for some regions.   
+	
+	\subsection{Datasets}
+	All the MODIS datasets are promptly available; the following products will be considered:
+	
+	\vspace{-1em}
+	\begin{itemize}
+		\setlength\itemsep{-1em}
+		\item MxD09Q1 - Red and Near Infra-red reflectance at $250m$ every 8 days.
+		\item MxD11A2 - Land surface temperature (LST) at $1000m$ every 8 days.
+		\item MxD17AH2 - GPP at $500m$ every 8 days.
+		\item MCD15A3H - LAI/FPAR at $500m$ every 4 days.
+	\end{itemize}
+	\vspace{-1em}
+	
+	Precipitation data is provided by the CHIRPS-V2 framework \citep{Funk2015}, at $5000m$ every day. Evapotranspiration data is from the ESI which is already available for the CONUS; however, datasets for South America are being prepared, according to personal communications. Finally, VPD datasets used by \cite{Behrangi2016} are also to be available.  
+	
+	Other datasets included here are crop maps, irrigation mask (for US) and soil maps. The latter one may or may not be used to help on explaining results, and diving deep into understanding events.
+	
+	\subsection{Analysis}
+	We are going to organize data in a time-series manner, so that we will perform most of the analysis based on anomalies detection and their correlations among variables and, lagged correlations to retrieve timing features. Working with standardized anomalies enables us to make comparisons between regions using different variables.
+	
+	Another critical step is, based on stepwise backward variables selection, to derive global or local models to predict crop yield under normal and drought conditions. 
+
+\section{Challenges}
+	A crucial point of this study is the partial dependence on datasets that are either brand new or still under preparation, such as VPD and ESI. For the particular case of VPD, I am going to generate my  data based on MODIS as proposed by \cite{Hashimoto2008} and \cite{Zhang2014b}; however, VPD data used by \cite{Behrangi2016} would be extremely valuable for this research.
+	
+	Yield data are also essential for this project, being these the base for validation, depending on the approach taken. An effort will be made towards establishing partnerships for data sharing and eventually further contribution. These communications might be eased after we have formed a committee, which will give better support to such requests.
+		
+	Data storage and processing are usually challenging when dealing with remote sensing, time series, various sources and data formats. I have been preparing my database by learning PostGIS and mastering in programming languages such as Python and R to make this analysis feasible and enabling me to work with big amounts of data. Nevertheless, there is always room to improve, and contributors are welcome.  
+
+	Last but not least, I will rely on my committee to better delineate my ideas and, finally, establish strategies and goals on publications. Data and partnerships might drive these procedures.
+	
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{apalike}
+\bibliography{../../../PCLOUD/bibtex/diss} %this address work for Mac and Linux!
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}

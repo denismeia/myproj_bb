@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: papel.aux
+The style file: apalike.bst
+Database file #1: ../../../PCLOUD/bibtex/diss.bib
+Warning--there's a number but no series in Mckee1993
+You've used 13 entries,
+            1935 wiz_defined-function locations,
+            571 strings with 7168 characters,
+and the built_in function-call counts, 6443 in all, are:
+= -- 620
+> -- 354
+< -- 3
++ -- 127
+- -- 126
+* -- 628
+:= -- 1121
+add.period$ -- 40
+call.type$ -- 13
+change.case$ -- 128
+chr.to.int$ -- 12
+cite$ -- 14
+duplicate$ -- 193
+empty$ -- 400
+format.name$ -- 141
+if$ -- 1223
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 13
+newline$ -- 68
+num.names$ -- 39
+pop$ -- 103
+preamble$ -- 1
+purify$ -- 128
+quote$ -- 0
+skip$ -- 139
+stack$ -- 0
+substring$ -- 479
+swap$ -- 21
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 78
+warning$ -- 1
+while$ -- 52
+width$ -- 0
+write$ -- 174
+(There was 1 warning)

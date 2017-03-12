@@ -1,0 +1,91 @@
+\begin{thebibliography}{}
+
+\bibitem[Anderson et~al., 2007a]{Anderson2007b}
+Anderson, M.~C., Norman, J.~M., Mecikalski, J.~R., Otkin, J.~a., and Kustas,
+  W.~P. (2007a).
+\newblock {A climatological study of evapotranspiration and moisture stress
+  across the continental United States based on thermal remote sensing: 1.
+  Model formulation}.
+\newblock {\em Journal of Geophysical Research: Atmospheres}, 112(10):1--17.
+
+\bibitem[Anderson et~al., 2007b]{Anderson2007c}
+Anderson, M.~C., Norman, J.~M., Mecikalski, J.~R., Otkin, J.~a., and Kustas,
+  W.~P. (2007b).
+\newblock {A climatological study of evapotranspiration and moisture stress
+  across the continental United States based on thermal remote sensing: 2.
+  Surface moisture climatology}.
+\newblock {\em Journal of Geophysical Research: Atmospheres}, 112(11):1--13.
+
+\bibitem[Basso and Ritchie, 2014]{Basso2014}
+Basso, B. and Ritchie, J. (2014).
+\newblock {Temperature and drought effects on maize yield}.
+\newblock {\em Nature Climate Change}, 4(4):233--233.
+
+\bibitem[Behrangi et~al., 2016]{Behrangi2016}
+Behrangi, A., Fetzer, E.~J., and Granger, S.~L. (2016).
+\newblock {Early detection of drought onset using near surface temperature and
+  humidity observed from space}.
+\newblock {\em International Journal of Remote Sensing}, 37(16):3911--3923.
+
+\bibitem[Caccamo et~al., 2011]{Caccamo2011}
+Caccamo, G., Chisholm, L., Bradstock, R., and Puotinen, M. (2011).
+\newblock {Assessing the sensitivity of MODIS to monitor drought in high
+  biomass ecosystems}.
+\newblock {\em Remote Sensing of Environment}, 115(10):2626--2639.
+
+\bibitem[Funk et~al., 2015]{Funk2015}
+Funk, C., Peterson, P., Landsfeld, M., Pedreros, D., Verdin, J., Shukla, S.,
+  Husak, G., Rowland, J., Harrison, L., Hoell, A., and Michaelsen, J. (2015).
+\newblock {The climate hazards infrared precipitation with stations—a new
+  environmental record for monitoring extremes}.
+\newblock {\em Scientific Data}, 2:150066.
+
+\bibitem[Hashimoto et~al., 2008]{Hashimoto2008}
+Hashimoto, H., Dungan, J.~L., White, M.~A., Yang, F., Michaelis, A.~R.,
+  Running, S.~W., and Nemani, R.~R. (2008).
+\newblock {Satellite-based estimation of surface vapor pressure deficits using
+  MODIS land surface temperature data}.
+\newblock {\em Remote Sensing of Environment}, 112(1):142--155.
+
+\bibitem[Jin et~al., 2016]{Jin2016}
+Jin, Z., Zhuang, Q., Tan, Z., Dukes, J.~S., Zheng, B., and Melillo, J.~M.
+  (2016).
+\newblock {Do maize models capture the impacts of heat and drought stresses on
+  yield? Using algorithm ensembles to identify successful approaches}.
+\newblock {\em Global Change Biology}, 22(9):3112--3126.
+
+\bibitem[Mckee et~al., 1993]{Mckee1993}
+Mckee, T.~B., Doesken, N.~J., and Kleist, J. (1993).
+\newblock {The relationship of drought frequency and duration to time scales}.
+\newblock In {\em Eighth Conference on Applied Climatology}, number January,
+  pages 17--22, Anaheim, California. American Meteorological Society.
+
+\bibitem[Otkin et~al., 2014]{Otkin2014a}
+Otkin, J.~a., Anderson, M.~C., Hain, C., and Svoboda, M. (2014).
+\newblock {Examining the Relationship between Drought Development and Rapid
+  Changes in the Evaporative Stress Index}.
+\newblock {\em Journal of Hydrometeorology}, 15(3):938--956.
+
+\bibitem[Swain et~al., 2011]{Swain2011}
+Swain, S., Wardlow, B.~D., Narumalani, S., Tadesse, T., and Callahan, K.
+  (2011).
+\newblock {Assessment of Vegetation Response to Drought in Nebraska Using
+  Terra-MODIS Land Surface Temperature and Normalized Difference Vegetation
+  Index}.
+\newblock {\em GIScience {\&} Remote Sensing}, 48(3):432--455.
+
+\bibitem[Wagle et~al., 2015]{Wagle2015a}
+Wagle, P., Xiao, X., and Suyker, A.~E. (2015).
+\newblock {Estimation and analysis of gross primary production of soybean under
+  various management practices and drought conditions}.
+\newblock {\em ISPRS Journal of Photogrammetry and Remote Sensing},
+  99(0):70--83.
+
+\bibitem[Zhang et~al., 2014]{Zhang2014b}
+Zhang, H., Wu, B., Yan, N., Zhu, W., and Feng, X. (2014).
+\newblock {An improved satellite-based approach for estimating vapor pressure
+  deficit from MODIS data}.
+\newblock {\em Journal of Geophysical Research Atmospheres},
+  119(21):12256--12271.
+
+\end{thebibliography}
